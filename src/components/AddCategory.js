@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const AddCategory =({setCategorias}) => { // se crea constante para todo el codigo
                         //se usa el setCategoriascomo una prop podria agregarce categorias como props pero es mas facil si lo pasas como  funcion
-    const [inputValue, setInputValue]= useState("hola mundo");// sze hace uso de un estado y se desestructura
+    const [inputValue, setInputValue]= useState("Busque gifs");// sze hace uso de un estado y se desestructura
     //se desestructura el useState el cual cuenta con dos propiedades inputValue donde se ingresa la informacion y setInputValue que te permite hacer cambios en el primer argumento osease inputValue
 
 
